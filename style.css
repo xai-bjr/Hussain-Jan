@@ -1,0 +1,10 @@
+.mar_head {
+    width: 254px;
+    height: 354px;
+    padding: 20px 20px 20px 20px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+.bio {
+    margin-left: 50px;
+}
