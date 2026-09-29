@@ -1,263 +1,341 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<title>Muhammad Hussain Jan™ | Developer Portfolio</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-<meta
-    name="description"
-    content="Muhammad Hussain Jan — self-taught programmer building web applications, Python projects, security tools and experimental software."
->
+    <meta
+        name="description"
+        content="Muhammad Hussain Jan — Python developer, web developer and software builder."
+    >
 
-<link rel="icon" type="image/x-icon" href="image.png">
+    <title>Muhammad Hussain Jan™ | Developer</title>
 
-<!-- Bootstrap -->
-<link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
->
+    <link rel="icon" href="data:,">
 
-<!-- Bootstrap Icons -->
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
->
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
 
-<!-- Your CSS -->
-<link rel="stylesheet" href="style.css">
-```
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
+
 <body>
+
 
 <!-- =========================================================
      BACKGROUND
 ========================================================= -->
 
-<div class="background-grid"></div>
-<div class="glow glow-one"></div>
-<div class="glow glow-two"></div>
+<div class="grid-background"></div>
+
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+
 
 <!-- =========================================================
      NAVIGATION
 ========================================================= -->
 
-<nav class="navbar navbar-expand-lg futuristic-nav fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top">
+
     <div class="container">
 
-```
-    <a class="navbar-brand brand-logo" href="#home">
-        <span class="brand-symbol">&lt;/&gt;</span>
-        HUSSAIN<span class="accent">.DEV</span>
-    </a>
+        <a class="navbar-brand" href="#home">
 
-    <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#portfolioNav"
-    >
-        <span class="navbar-toggler-icon"></span>
-    </button>
+            <span class="logo-bracket">&lt;</span>
 
-    <div class="collapse navbar-collapse" id="portfolioNav">
+            HUSSAIN
 
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <span class="logo-accent">
+                .DEV
+            </span>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-            </li>
+            <span class="logo-bracket">/&gt;</span>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>
+        </a>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-            </li>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navigation"
+        >
 
-            <li class="nav-item">
-                <a class="nav-link" href="#learning">Learning</a>
-            </li>
+            <i class="bi bi-list"></i>
 
-            <li class="nav-item">
-                <a class="btn btn-neon ms-lg-2" href="#contact">
-                    Contact
-                </a>
-            </li>
+        </button>
 
-        </ul>
+
+        <div
+            class="collapse navbar-collapse"
+            id="navigation"
+        >
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#roadmap">
+                        Roadmap
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
 
     </div>
-</div>
-```
 
 </nav>
+
+
 
 <!-- =========================================================
      HERO
 ========================================================= -->
 
-<section id="home" class="hero-section">
+<section id="home" class="hero">
 
-```
-<div class="container">
+    <div class="container">
 
-    <div class="row align-items-center min-vh-100 g-5">
+        <div class="row align-items-center g-5">
 
-        <!-- LEFT -->
-        <div class="col-lg-7">
+            <!-- HERO TEXT -->
 
-            <div class="status-badge">
-                <span class="status-dot"></span>
-                SYSTEM ONLINE · AVAILABLE FOR PROJECTS
-            </div>
+            <div class="col-lg-7">
 
-            <p class="hero-command">
-                TERMINAL 01 / DEVELOPER NODE
-            </p>
+                <div class="system-status">
 
-            <h1 class="hero-title">
+                    <span class="status-light"></span>
 
-                Muhammad
-                <span class="gradient-text">
-                    Hussain Jan
-                </span>
+                    DEVELOPER NODE ONLINE
 
-            </h1>
-
-            <h2 class="hero-subtitle">
-                Python Developer
-                <span>/</span>
-                Web Developer
-                <span>/</span>
-                Builder
-            </h2>
-
-            <p class="hero-description">
-                I'm a self-taught programmer passionate about turning
-                ideas into real software. I enjoy building web
-                applications, Python projects, security-focused tools,
-                and experimental systems while continuously learning
-                new technologies.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#projects" class="btn btn-neon btn-lg">
-                    <i class="bi bi-terminal"></i>
-                    Explore Projects
-                </a>
-
-                <a
-                    href="https://github.com/xai-bjr"
-                    target="_blank"
-                    rel="noopener"
-                    class="btn btn-outline-neon btn-lg"
-                >
-                    <i class="bi bi-github"></i>
-                    GitHub
-                </a>
-
-            </div>
-
-            <div class="hero-stats">
-
-                <div>
-                    <strong>01+</strong>
-                    <span>Years Learning</span>
                 </div>
 
-                <div>
-                    <strong>10+</strong>
-                    <span>Experiments</span>
+
+                <div class="terminal-prefix">
+
+                    TERMINAL_01 / LOCAL_DEVELOPER
+
                 </div>
 
-                <div>
-                    <strong>∞</strong>
-                    <span>Ideas</span>
+
+                <h1>
+
+                    Muhammad
+
+                    <span class="hero-gradient">
+                        Hussain Jan
+                    </span>
+
+                </h1>
+
+
+                <div class="typing-line">
+
+                    <span>&gt;</span>
+
+                    Python Developer
+                    <b>/</b>
+                    Web Developer
+                    <b>/</b>
+                    Builder
+
+                </div>
+
+
+                <p class="hero-text">
+
+                    I'm a self-taught programmer who enjoys turning
+                    ideas into real software.
+
+                    I build Python applications, web interfaces,
+                    security-focused tools and experimental systems
+                    while continuously learning how software works
+                    from the inside out.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#projects"
+                        class="btn-main"
+                    >
+
+                        <i class="bi bi-code-slash"></i>
+
+                        Explore My Work
+
+                    </a>
+
+
+                    <a
+                        href="https://github.com/xai-bjr"
+                        target="_blank"
+                        rel="noopener"
+                        class="btn-secondary"
+                    >
+
+                        <i class="bi bi-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+
+                <!-- QUICK FACTS -->
+
+                <div class="quick-facts">
+
+                    <div>
+
+                        <strong>PYTHON</strong>
+
+                        <span>Development</span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>WEB</strong>
+
+                        <span>Development</span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>SECURITY</strong>
+
+                        <span>Exploration</span>
+
+                    </div>
+
                 </div>
 
             </div>
 
-        </div>
 
 
-        <!-- RIGHT 3D PROFILE -->
-        <div class="col-lg-5">
+            <!-- 3D OBJECT -->
 
-            <div class="profile-3d-wrapper">
+            <div class="col-lg-5">
 
-                <div class="profile-card">
+                <div class="developer-core">
 
-                    <div class="card-header-line">
-                        <span>SECURE_NODE</span>
-                        <span class="online">
-                            ● ONLINE
+                    <div class="core-shadow"></div>
+
+
+                    <div class="orbit orbit-one">
+
+                        <span class="orbit-node node-python">
+                            PY
                         </span>
-                    </div>
-
-                    <div class="profile-image-wrapper">
-
-                        <div class="profile-ring"></div>
-
-                        <img
-                            src="image_photo.png"
-                            alt="Muhammad Hussain Jan"
-                            class="profile-image"
-                        >
 
                     </div>
 
-                    <h3>
-                        Muhammad Hussain Jan
-                    </h3>
 
-                    <p class="profile-role">
-                        Developer · Student · Builder
-                    </p>
+                    <div class="orbit orbit-two">
 
-                    <div class="terminal-box">
+                        <span class="orbit-node node-html">
+                            &lt;/&gt;
+                        </span>
 
-                        <div>
-                            <span class="terminal-green">
-                                $
+                    </div>
+
+
+                    <div class="orbit orbit-three">
+
+                        <span class="orbit-node node-secure">
+                            <i class="bi bi-shield-lock"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="core">
+
+                        <div class="core-inner">
+
+                            <span class="core-symbol">
+                                &lt;/&gt;
                             </span>
-                            whoami
-                        </div>
 
-                        <div class="terminal-output">
-                            self_taught_developer
-                        </div>
+                            <strong>
+                                BUILD
+                            </strong>
 
-                        <div>
-                            <span class="terminal-green">
-                                $
-                            </span>
-                            status
-                        </div>
+                            <small>
+                                CREATE · LEARN · IMPROVE
+                            </small>
 
-                        <div class="terminal-output">
-                            learning + building
                         </div>
 
                     </div>
 
-                    <div class="profile-tags">
 
-                        <span>Python</span>
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Flask</span>
+                    <div class="core-label">
+
+                        <span>
+                            SYSTEM STATUS
+                        </span>
+
+                        <strong>
+                            BUILDING
+                        </strong>
 
                     </div>
 
@@ -269,10 +347,9 @@
 
     </div>
 
-</div>
-```
-
 </section>
+
+
 
 <!-- =========================================================
      ABOUT
@@ -280,665 +357,742 @@
 
 <section id="about" class="section">
 
-```
-<div class="container">
+    <div class="container">
 
-    <div class="section-heading">
+        <div class="section-title">
 
-        <span>01 / PROFILE</span>
+            <span>
+                01 / IDENTITY
+            </span>
 
-        <h2>
-            About <span>Me</span>
-        </h2>
+            <h2>
+                What I <em>Do</em>
+            </h2>
 
-        <p>
-            Building skills today. Building systems tomorrow.
-        </p>
+        </div>
 
-    </div>
 
-    <div class="row g-4">
+        <div class="row g-4">
 
-        <div class="col-lg-8">
 
-            <div class="glass-card about-card">
+            <div class="col-md-6 col-lg-4">
 
-                <div class="terminal-label">
-                    USER_PROFILE.EXE
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-terminal"></i>
+                    </div>
+
+                    <span class="service-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Build Software
+                    </h3>
+
+                    <p>
+                        I use Python to turn ideas into working
+                        applications, utilities and systems.
+                    </p>
+
                 </div>
 
-                <h3>
-                    Turning curiosity into code.
-                </h3>
+            </div>
 
-                <p>
-                    I'm a self-taught programmer focused on learning
-                    through practical projects rather than only theory.
-                    I enjoy taking an idea, designing a system around it,
-                    and turning that idea into something that actually
-                    works.
-                </p>
 
-                <p>
-                    My interests currently include Python, web
-                    development, cybersecurity concepts, automation,
-                    software architecture and building useful tools.
-                </p>
+            <div class="col-md-6 col-lg-4">
 
-                <p>
-                    Every project is an opportunity to learn something
-                    new and improve the way I write software.
-                </p>
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-globe2"></i>
+                    </div>
+
+                    <span class="service-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Build Websites
+                    </h3>
+
+                    <p>
+                        I create responsive websites using HTML,
+                        CSS, Bootstrap and JavaScript while learning
+                        modern frontend development.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+
+                    <span class="service-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Explore Security
+                    </h3>
+
+                    <p>
+                        I'm learning secure application design,
+                        authentication, encryption and protected
+                        local data storage.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+
+                    <span class="service-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Experiment
+                    </h3>
+
+                    <p>
+                        I don't only follow tutorials. I experiment,
+                        break things, debug them and build my own
+                        projects to understand the technology.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-git"></i>
+                    </div>
+
+                    <span class="service-number">
+                        05
+                    </span>
+
+                    <h3>
+                        Learn Git
+                    </h3>
+
+                    <p>
+                        I use Git and GitHub to organize projects,
+                        track changes and build a public development
+                        portfolio.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="bi bi-rocket-takeoff"></i>
+                    </div>
+
+                    <span class="service-number">
+                        06
+                    </span>
+
+                    <h3>
+                        Keep Building
+                    </h3>
+
+                    <p>
+                        Every project becomes a foundation for the
+                        next one. The goal is continuous improvement,
+                        not just completing tutorials.
+                    </p>
+
+                </div>
 
             </div>
 
         </div>
 
-
-        <div class="col-lg-4">
-
-            <div class="glass-card info-card">
-
-                <div class="info-row">
-                    <span>Role</span>
-                    <strong>Developer</strong>
-                </div>
-
-                <div class="info-row">
-                    <span>Focus</span>
-                    <strong>Software</strong>
-                </div>
-
-                <div class="info-row">
-                    <span>Environment</span>
-                    <strong>Windows / Linux</strong>
-                </div>
-
-                <div class="info-row">
-                    <span>Learning</span>
-                    <strong>Always</strong>
-                </div>
-
-            </div>
-
-        </div>
-
     </div>
-
-</div>
-```
 
 </section>
+
+
 
 <!-- =========================================================
      SKILLS
 ========================================================= -->
 
-<section id="skills" class="section">
+<section id="skills" class="section section-dark">
 
-```
-<div class="container">
+    <div class="container">
 
-    <div class="section-heading">
+        <div class="section-title">
 
-        <span>02 / TECHNOLOGY</span>
+            <span>
+                02 / TECHNOLOGY STACK
+            </span>
 
-        <h2>
-            Skills <span>&</span> Tools
-        </h2>
-
-        <p>
-            Technologies I'm currently using and learning.
-        </p>
-
-    </div>
-
-
-    <div class="row g-4">
-
-        <!-- Python -->
-        <div class="col-md-6 col-lg-4">
-
-            <div class="skill-card">
-
-                <div class="skill-icon python-icon">
-                    <i class="bi bi-code-slash"></i>
-                </div>
-
-                <h3>Python</h3>
-
-                <p>
-                    Application development, automation,
-                    backend systems and experimentation.
-                </p>
-
-                <div class="skill-progress">
-                    <span style="width: 85%"></span>
-                </div>
-
-                <small>
-                    Core Language
-                </small>
-
-            </div>
+            <h2>
+                My <em>Skills</em>
+            </h2>
 
         </div>
 
 
-        <!-- HTML -->
-        <div class="col-md-6 col-lg-4">
+        <div class="skills-grid">
 
-            <div class="skill-card">
 
-                <div class="skill-icon">
-                    <i class="bi bi-filetype-html"></i>
-                </div>
+            <div class="tech-card">
 
-                <h3>HTML</h3>
+                <i class="bi bi-filetype-py"></i>
+
+                <h3>
+                    Python
+                </h3>
 
                 <p>
-                    Semantic structures and responsive
-                    web interfaces.
+                    Main programming language
                 </p>
 
-                <div class="skill-progress">
-                    <span style="width: 90%"></span>
+                <div class="tech-level">
+                    CORE
                 </div>
-
-                <small>
-                    Web Foundation
-                </small>
 
             </div>
 
-        </div>
 
+            <div class="tech-card">
 
-        <!-- CSS -->
-        <div class="col-md-6 col-lg-4">
+                <i class="bi bi-filetype-html"></i>
 
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    <i class="bi bi-filetype-css"></i>
-                </div>
-
-                <h3>CSS</h3>
+                <h3>
+                    HTML5
+                </h3>
 
                 <p>
-                    Responsive layouts, animations,
-                    modern UI and visual design.
+                    Web structure
                 </p>
 
-                <div class="skill-progress">
-                    <span style="width: 80%"></span>
+                <div class="tech-level">
+                    WEB
                 </div>
-
-                <small>
-                    Interface Design
-                </small>
 
             </div>
 
-        </div>
 
+            <div class="tech-card">
 
-        <!-- Flask -->
-        <div class="col-md-6 col-lg-4">
+                <i class="bi bi-filetype-css"></i>
 
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    <i class="bi bi-server"></i>
-                </div>
-
-                <h3>Flask</h3>
+                <h3>
+                    CSS3
+                </h3>
 
                 <p>
-                    Python web applications, APIs and
-                    local server systems.
+                    UI & visual design
                 </p>
 
-                <div class="skill-progress">
-                    <span style="width: 70%"></span>
+                <div class="tech-level">
+                    WEB
                 </div>
-
-                <small>
-                    Backend
-                </small>
 
             </div>
 
-        </div>
 
+            <div class="tech-card">
 
-        <!-- Git -->
-        <div class="col-md-6 col-lg-4">
+                <i class="bi bi-bootstrap"></i>
 
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    <i class="bi bi-git"></i>
-                </div>
-
-                <h3>Git & GitHub</h3>
+                <h3>
+                    Bootstrap
+                </h3>
 
                 <p>
-                    Source control, project management
-                    and open-source workflows.
+                    Responsive interfaces
                 </p>
 
-                <div class="skill-progress">
-                    <span style="width: 75%"></span>
+                <div class="tech-level">
+                    UI
                 </div>
-
-                <small>
-                    Version Control
-                </small>
 
             </div>
 
-        </div>
 
+            <div class="tech-card">
 
-        <!-- Security -->
-        <div class="col-md-6 col-lg-4">
+                <i class="bi bi-server"></i>
 
-            <div class="skill-card">
-
-                <div class="skill-icon">
-                    <i class="bi bi-shield-lock"></i>
-                </div>
-
-                <h3>Security</h3>
+                <h3>
+                    Flask
+                </h3>
 
                 <p>
-                    Learning encryption, authentication,
-                    secure storage and application security.
+                    Python web applications
                 </p>
 
-                <div class="skill-progress">
-                    <span style="width: 65%"></span>
+                <div class="tech-level">
+                    BACKEND
                 </div>
 
-                <small>
-                    Currently Learning
-                </small>
+            </div>
+
+
+            <div class="tech-card">
+
+                <i class="bi bi-git"></i>
+
+                <h3>
+                    Git / GitHub
+                </h3>
+
+                <p>
+                    Version control
+                </p>
+
+                <div class="tech-level">
+                    WORKFLOW
+                </div>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i class="bi bi-shield-lock"></i>
+
+                <h3>
+                    Cryptography
+                </h3>
+
+                <p>
+                    Security exploration
+                </p>
+
+                <div class="tech-level">
+                    LEARNING
+                </div>
+
+            </div>
+
+
+            <div class="tech-card">
+
+                <i class="bi bi-database"></i>
+
+                <h3>
+                    Databases
+                </h3>
+
+                <p>
+                    Data storage & architecture
+                </p>
+
+                <div class="tech-level">
+                    LEARNING
+                </div>
 
             </div>
 
         </div>
 
     </div>
-
-</div>
-```
 
 </section>
+
+
 
 <!-- =========================================================
      PROJECTS
 ========================================================= -->
 
-<section id="projects" class="section projects-section">
+<section id="projects" class="section">
 
-```
-<div class="container">
+    <div class="container">
 
-    <div class="section-heading">
+        <div class="section-title">
 
-        <span>03 / PROJECT ARCHIVE</span>
+            <span>
+                03 / PROJECT ARCHIVE
+            </span>
 
-        <h2>
-            Things I've <span>Built</span>
-        </h2>
+            <h2>
+                What I'm <em>Building</em>
+            </h2>
 
-        <p>
-            Real projects, experiments and systems I'm developing.
-        </p>
+            <p>
+                Real projects are where I learn the most.
+            </p>
 
-    </div>
-
-
-    <div class="row g-4">
+        </div>
 
 
-        <!-- SECURE VAULT -->
+        <div class="row g-4">
 
-        <div class="col-lg-6">
 
-            <div class="project-card featured-project">
+            <!-- SECURE VAULT -->
 
-                <div class="project-top">
+            <div class="col-lg-6">
 
-                    <div class="project-icon">
-                        <i class="bi bi-shield-lock-fill"></i>
+                <article class="project-card project-featured">
+
+                    <div class="project-header">
+
+                        <div class="project-icon">
+                            <i class="bi bi-shield-lock-fill"></i>
+                        </div>
+
+                        <span class="project-status">
+                            ACTIVE
+                        </span>
+
                     </div>
 
-                    <span class="project-status">
-                        ACTIVE
-                    </span>
 
-                </div>
+                    <small class="project-id">
+                        PROJECT_001
+                    </small>
 
-                <div class="project-number">
-                    PROJECT_01
-                </div>
 
-                <h3>
-                    Secure Vault V2
-                </h3>
+                    <h3>
+                        Secure Vault V2
+                    </h3>
 
-                <p>
-                    A locally hosted encrypted file vault designed
-                    around modern cryptographic primitives. The system
-                    uses AES-256-GCM, Argon2id password-based key
-                    derivation and encrypted file metadata.
-                </p>
 
-                <div class="project-tech">
+                    <p>
 
-                    <span>Python</span>
-                    <span>Flask</span>
-                    <span>Argon2id</span>
-                    <span>AES-256-GCM</span>
+                        A locally hosted encrypted file server
+                        designed around modern cryptographic
+                        primitives.
 
-                </div>
+                        The project explores AES-256-GCM,
+                        Argon2id, encrypted metadata,
+                        password-derived keys and secure
+                        local file storage.
 
-                <div class="project-actions">
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Argon2id</span>
+                        <span>AES-256-GCM</span>
+
+                    </div>
+
 
                     <a
                         href="https://github.com/xai-bjr"
                         target="_blank"
                         rel="noopener"
-                        class="project-link"
+                        class="project-button"
                     >
-                        <i class="bi bi-github"></i>
-                        Repository
+
+                        View on GitHub
+
+                        <i class="bi bi-arrow-up-right"></i>
+
                     </a>
 
-                    <span class="project-arrow">
-                        →
-                    </span>
-
-                </div>
+                </article>
 
             </div>
 
-        </div>
 
 
-        <!-- HIMS -->
+            <!-- HIMS -->
 
-        <div class="col-lg-6">
+            <div class="col-lg-6">
 
-            <div class="project-card">
+                <article class="project-card">
 
-                <div class="project-top">
+                    <div class="project-header">
 
-                    <div class="project-icon">
-                        <i class="bi bi-hospital"></i>
+                        <div class="project-icon">
+                            <i class="bi bi-hospital"></i>
+                        </div>
+
+                        <span class="project-status building">
+                            BUILDING
+                        </span>
+
                     </div>
 
-                    <span class="project-status building">
-                        BUILDING
-                    </span>
 
-                </div>
+                    <small class="project-id">
+                        PROJECT_002
+                    </small>
 
-                <div class="project-number">
-                    PROJECT_02
-                </div>
 
-                <h3>
-                    HIMS
-                </h3>
+                    <h3>
+                        HIMS
+                    </h3>
 
-                <p>
-                    A healthcare information management project
-                    focused on structured patient records, desktop
-                    interfaces and organized application architecture.
-                </p>
 
-                <div class="project-tech">
+                    <p>
 
-                    <span>Python</span>
-                    <span>Tkinter</span>
-                    <span>GUI</span>
-                    <span>Database</span>
+                        A healthcare information management
+                        application focused on structured
+                        records, desktop interfaces and
+                        organized software architecture.
 
-                </div>
+                        The project is helping me learn how
+                        larger applications are structured.
 
-                <div class="project-actions">
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>Python</span>
+                        <span>Tkinter</span>
+                        <span>GUI</span>
+                        <span>Database</span>
+
+                    </div>
+
 
                     <a
                         href="https://github.com/xai-bjr"
                         target="_blank"
                         rel="noopener"
-                        class="project-link"
+                        class="project-button"
                     >
-                        <i class="bi bi-github"></i>
-                        View Projects
+
+                        View on GitHub
+
+                        <i class="bi bi-arrow-up-right"></i>
+
                     </a>
 
-                    <span class="project-arrow">
-                        →
-                    </span>
-
-                </div>
+                </article>
 
             </div>
 
-        </div>
 
 
-        <!-- WEB PROJECTS -->
+            <!-- WEB -->
 
-        <div class="col-lg-4">
+            <div class="col-md-6">
 
-            <div class="project-card small-project">
+                <article class="project-card">
 
-                <div class="project-icon">
-                    <i class="bi bi-globe2"></i>
-                </div>
+                    <div class="project-header">
 
-                <div class="project-number">
-                    PROJECT_03
-                </div>
+                        <div class="project-icon">
+                            <i class="bi bi-window-stack"></i>
+                        </div>
 
-                <h3>
-                    Web Experiments
-                </h3>
+                        <span class="project-status building">
+                            BUILDING
+                        </span>
 
-                <p>
-                    Experimental websites and UI projects created
-                    while learning HTML and CSS.
-                </p>
-
-                <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Bootstrap</span>
-                </div>
-
-            </div>
-
-        </div>
+                    </div>
 
 
-        <!-- PYTHON -->
+                    <small class="project-id">
+                        PROJECT_003
+                    </small>
 
-        <div class="col-lg-4">
 
-            <div class="project-card small-project">
+                    <h3>
+                        Web Development Lab
+                    </h3>
 
-                <div class="project-icon">
-                    <i class="bi bi-terminal-fill"></i>
-                </div>
 
-                <div class="project-number">
-                    PROJECT_04
-                </div>
+                    <p>
+                        A collection of websites and frontend
+                        experiments created while learning
+                        HTML5, CSS3, Bootstrap and responsive
+                        design.
+                    </p>
 
-                <h3>
-                    Python Experiments
-                </h3>
 
-                <p>
-                    Small utilities, automation scripts and
-                    programming experiments.
-                </p>
+                    <div class="tags">
 
-                <div class="project-tech">
-                    <span>Python</span>
-                    <span>CLI</span>
-                </div>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                </article>
 
             </div>
 
-        </div>
 
 
-        <!-- FUTURE -->
+            <!-- PYTHON -->
 
-        <div class="col-lg-4">
+            <div class="col-md-6">
 
-            <div class="project-card small-project future-project">
+                <article class="project-card">
 
-                <div class="project-icon">
-                    <i class="bi bi-plus-lg"></i>
-                </div>
+                    <div class="project-header">
 
-                <div class="project-number">
-                    PROJECT_05
-                </div>
+                        <div class="project-icon">
+                            <i class="bi bi-terminal-fill"></i>
+                        </div>
 
-                <h3>
-                    Next Project
-                </h3>
+                        <span class="project-status">
+                            ACTIVE
+                        </span>
 
-                <p>
-                    The next idea is already loading...
-                </p>
+                    </div>
 
-                <div class="loading-line">
-                    <span></span>
-                </div>
+
+                    <small class="project-id">
+                        PROJECT_004
+                    </small>
+
+
+                    <h3>
+                        Python Experiments
+                    </h3>
+
+
+                    <p>
+                        Small programs, utilities, automation
+                        scripts and experiments created to
+                        understand Python by building things.
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>Python</span>
+                        <span>CLI</span>
+                        <span>Automation</span>
+
+                    </div>
+
+                </article>
 
             </div>
 
         </div>
 
     </div>
-
-</div>
-```
 
 </section>
+
+
 
 <!-- =========================================================
-     LEARNING ROADMAP
+     WHAT I AM LEARNING
 ========================================================= -->
 
-<section id="learning" class="section">
+<section class="section section-dark">
 
-```
-<div class="container">
+    <div class="container">
 
-    <div class="section-heading">
+        <div class="section-title">
 
-        <span>04 / DEVELOPMENT ROADMAP</span>
+            <span>
+                04 / CURRENT OPERATIONS
+            </span>
 
-        <h2>
-            Currently <span>Learning</span>
-        </h2>
-
-    </div>
-
-
-    <div class="roadmap">
-
-        <div class="roadmap-item completed">
-
-            <div class="roadmap-dot"></div>
-
-            <div>
-
-                <span>COMPLETED / FOUNDATION</span>
-
-                <h3>
-                    HTML & Web Fundamentals
-                </h3>
-
-                <p>
-                    Building structured web pages and learning
-                    the fundamentals of frontend development.
-                </p>
-
-            </div>
+            <h2>
+                What I'm <em>Learning</em>
+            </h2>
 
         </div>
 
 
-        <div class="roadmap-item active">
+        <div class="learning-console">
 
-            <div class="roadmap-dot"></div>
+            <div class="console-top">
 
-            <div>
+                <span></span>
+                <span></span>
+                <span></span>
 
-                <span>ACTIVE / BUILDING</span>
-
-                <h3>
-                    Python Development
-                </h3>
-
-                <p>
-                    Improving Python through real applications,
-                    automation and software projects.
-                </p>
+                <label>
+                    learning_terminal.exe
+                </label>
 
             </div>
 
-        </div>
 
-
-        <div class="roadmap-item active">
-
-            <div class="roadmap-dot"></div>
-
-            <div>
-
-                <span>ACTIVE / EXPLORING</span>
-
-                <h3>
-                    Backend & Security
-                </h3>
+            <div class="console-body">
 
                 <p>
-                    Exploring Flask, authentication, encryption,
-                    databases and secure application architecture.
+                    <b>$</b>
+                    cat current_learning.txt
                 </p>
 
-            </div>
 
-        </div>
+                <div class="console-list">
+
+                    <div>
+                        <span>01</span>
+                        Python application architecture
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        Flask backend development
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        Databases and data management
+                    </div>
+
+                    <div>
+                        <span>04</span>
+                        Authentication and secure systems
+                    </div>
+
+                    <div>
+                        <span>05</span>
+                        Cryptography fundamentals
+                    </div>
+
+                    <div>
+                        <span>06</span>
+                        Modern responsive frontend development
+                    </div>
+
+                    <div>
+                        <span>07</span>
+                        Git and professional development workflow
+                    </div>
+
+                </div>
 
 
-        <div class="roadmap-item future">
+                <p class="console-success">
 
-            <div class="roadmap-dot"></div>
+                    ✓ learning process active
 
-            <div>
-
-                <span>NEXT TARGET</span>
-
-                <h3>
-                    Advanced Software Engineering
-                </h3>
-
-                <p>
-                    Larger applications, better architecture,
-                    testing, deployment and production workflows.
                 </p>
 
             </div>
@@ -946,149 +1100,220 @@
         </div>
 
     </div>
-
-</div>
-```
 
 </section>
+
+
+
+<!-- =========================================================
+     NEXT TARGET
+========================================================= -->
+
+<section id="roadmap" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>
+                05 / FUTURE SYSTEM
+            </span>
+
+            <h2>
+                What's <em>Next?</em>
+            </h2>
+
+            <p>
+                The roadmap doesn't stop at the current projects.
+            </p>
+
+        </div>
+
+
+        <div class="roadmap">
+
+
+            <div class="roadmap-item completed">
+
+                <div class="roadmap-number">
+                    01
+                </div>
+
+                <div>
+
+                    <span>
+                        CURRENT FOUNDATION
+                    </span>
+
+                    <h3>
+                        HTML / CSS / Python
+                    </h3>
+
+                    <p>
+                        Build a strong programming and web
+                        development foundation through practical
+                        projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="roadmap-item active">
+
+                <div class="roadmap-number">
+                    02
+                </div>
+
+                <div>
+
+                    <span>
+                        CURRENT TARGET
+                    </span>
+
+                    <h3>
+                        Larger Applications
+                    </h3>
+
+                    <p>
+                        Move from small experiments toward
+                        complete applications with proper
+                        architecture, databases and testing.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="roadmap-item next">
+
+                <div class="roadmap-number">
+                    03
+                </div>
+
+                <div>
+
+                    <span>
+                        NEXT TARGET
+                    </span>
+
+                    <h3>
+                        Full-Stack Development
+                    </h3>
+
+                    <p>
+                        Combine frontend interfaces with
+                        Python backend systems, APIs,
+                        authentication and databases.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="roadmap-item future">
+
+                <div class="roadmap-number">
+                    04
+                </div>
+
+                <div>
+
+                    <span>
+                        FUTURE TARGET
+                    </span>
+
+                    <h3>
+                        Production Software
+                    </h3>
+
+                    <p>
+                        Learn testing, deployment, Linux,
+                        networking, software architecture and
+                        production engineering.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="roadmap-item future">
+
+                <div class="roadmap-number">
+                    05
+                </div>
+
+                <div>
+
+                    <span>
+                        LONG-TERM TARGET
+                    </span>
+
+                    <h3>
+                        Build Something People Use
+                    </h3>
+
+                    <p>
+                        Turn everything learned from individual
+                        projects into larger software that solves
+                        real problems.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
 
 <!-- =========================================================
      GITHUB
 ========================================================= -->
 
-<section class="section github-section">
+<section class="github-section">
 
-```
-<div class="container">
+    <div class="container">
 
-    <div class="github-card">
+        <div class="github-box">
 
-        <div class="row align-items-center g-4">
+            <div>
 
-            <div class="col-lg-8">
-
-                <span class="terminal-label">
-                    OPEN_SOURCE_NODE
+                <span>
+                    OPEN SOURCE / DEVELOPMENT
                 </span>
 
                 <h2>
-                    Follow the code.
+                    My code lives on GitHub.
                 </h2>
 
                 <p>
-                    My projects, experiments and future builds
-                    live on GitHub.
+                    Projects, experiments, progress and future
+                    builds are published as I continue learning.
                 </p>
 
             </div>
 
-            <div class="col-lg-4 text-lg-end">
-
-                <a
-                    href="https://github.com/xai-bjr"
-                    target="_blank"
-                    rel="noopener"
-                    class="btn btn-neon btn-lg"
-                >
-                    <i class="bi bi-github"></i>
-                    Visit GitHub
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-```
-
-</section>
-
-<!-- =========================================================
-     CONTACT
-========================================================= -->
-
-<section id="contact" class="section contact-section">
-
-```
-<div class="container">
-
-    <div class="section-heading">
-
-        <span>05 / CONNECTION</span>
-
-        <h2>
-            Let's <span>Build</span>
-        </h2>
-
-        <p>
-            Have an idea, project or collaboration?
-        </p>
-
-    </div>
-
-
-    <div class="contact-panel">
-
-        <div class="contact-terminal">
-
-            <div class="terminal-header">
-
-                <span></span>
-                <span></span>
-                <span></span>
-
-            </div>
-
-            <div class="terminal-content">
-
-                <p>
-                    <span>$</span>
-                    initialize_connection
-                </p>
-
-                <p class="terminal-green">
-                    CONNECTION READY
-                </p>
-
-                <p>
-                    <span>$</span>
-                    contact --developer
-                </p>
-
-                <p class="terminal-green">
-                    OPEN TO PROJECTS / COLLABORATION
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="contact-links">
 
             <a
                 href="https://github.com/xai-bjr"
                 target="_blank"
                 rel="noopener"
+                class="btn-main"
             >
+
                 <i class="bi bi-github"></i>
-                <span>
-                    <small>GITHUB</small>
-                    github.com/xai-bjr
-                </span>
-            </a>
 
-
-            <a href="mailto:bjr@gmail.com">
-
-                <i class="bi bi-envelope"></i>
-
-                <span>
-                    <small>EMAIL</small>
-                    bjr@gmail.com
-                </span>
+                Open GitHub
 
             </a>
 
@@ -1096,57 +1321,148 @@
 
     </div>
 
-</div>
-```
+</section>
+
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>
+                06 / CONNECTION
+            </span>
+
+            <h2>
+                Connect <em>With Me</em>
+            </h2>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <a
+                href="https://github.com/xai-bjr"
+                target="_blank"
+                rel="noopener"
+                class="contact-card"
+            >
+
+                <i class="bi bi-github"></i>
+
+                <div>
+
+                    <small>
+                        GITHUB
+                    </small>
+
+                    <strong>
+                        @xai-bjr
+                    </strong>
+
+                </div>
+
+                <i class="bi bi-arrow-up-right"></i>
+
+            </a>
+
+
+            <a
+                href="mailto:bjr@gmail.com"
+                class="contact-card"
+            >
+
+                <i class="bi bi-envelope"></i>
+
+                <div>
+
+                    <small>
+                        EMAIL
+                    </small>
+
+                    <strong>
+                        bjr@gmail.com
+                    </strong>
+
+                </div>
+
+                <i class="bi bi-arrow-up-right"></i>
+
+            </a>
+
+
+        </div>
+
+    </div>
 
 </section>
+
+
 
 <!-- =========================================================
      FOOTER
 ========================================================= -->
 
-<footer class="footer">
+<footer>
 
-```
-<div class="container">
+    <div class="container">
 
-    <div class="footer-line"></div>
+        <div class="footer-content">
 
-    <div class="row align-items-center g-3">
+            <div>
 
-        <div class="col-md-6">
+                <strong>
+                    &lt;HUSSAIN.DEV/&gt;
+                </strong>
 
-            <p>
-                © 2026 Muhammad Hussain Jan™
-            </p>
+                <p>
+                    Build. Learn. Improve.
+                </p>
 
-        </div>
+            </div>
 
-        <div class="col-md-6 text-md-end">
 
-            <p class="footer-status">
+            <div class="footer-status">
+
                 <span></span>
-                SYSTEM ONLINE · KEEP BUILDING
-            </p>
+
+                SYSTEM ONLINE
+
+            </div>
 
         </div>
+
+
+        <div class="footer-line"></div>
+
+
+        <p class="copyright">
+
+            © 2026 Muhammad Hussain Jan™ · Built with HTML5,
+            CSS3, Bootstrap & JavaScript.
+
+        </p>
 
     </div>
 
-</div>
-```
-
 </footer>
 
-<!-- Bootstrap JS -->
+
 
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
 </script>
 
-<!-- Your JS -->
-
 <script src="main.js"></script>
 
 </body>
+
 </html>
